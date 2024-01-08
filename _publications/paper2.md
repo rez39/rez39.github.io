@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/paper2/
 excerpt: 'We propose an adaptive, non-parametric method to change the sensing rate using the maximum frequency estimate based on recent historical data.'
 date: Jul-2021
-venue: '2021 IEEE 7th World Forum on Internet of Things (WF-IoT), New Orleans, LA, USA, 2021'
+venue: 'IEEE 7th World Forum on Internet of Things (WF-IoT), New Orleans, LA, USA'
 paperurl: 'https://ieeexplore.ieee.org/document/9595393'
 
 ---
