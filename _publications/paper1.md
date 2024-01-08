@@ -1,7 +1,7 @@
 ---
 title: "Beyond Broadcasting: Revisiting FM Frequency-band for Providing Connectivity to Next Billion Devices"
 collection: publications
-permalink: /publications/paper1
+permalink: /publications/paper1/
 excerpt: 'We introduce TunnelRadio, which is our ongoing effort to design low-power radio transmitters that achieve significant energy efficiency compared to commodity radio transceivers.'
 date: 11-2023
 venue: '11th International Workshop on Energy Harvesting & Energy-Neutral Sensing Systems 2023'
