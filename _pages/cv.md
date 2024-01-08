@@ -3,6 +3,7 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+paperurl: 'https://github.com/rez39/rez39.github.io/blob/master/files/Rajashekar_CV.pdf'
 redirect_from:
   - /resume
 ---
