@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/paper3/
 excerpt: 'A framework is proposed in this paper based on hierarchical agglomerative clustering along with geographical distance based cluster representation.'
 date: Aug-2021
-venue: '2021 8th International Conference on Future Internet of Things and Cloud (FiCloud), Rome, Italy'
+venue: '8th International Conference on Future Internet of Things and Cloud (FiCloud), Rome, Italy'
 paperurl: 'https://ieeexplore.ieee.org/document/9590333'
 
 ---
