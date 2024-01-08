@@ -1,9 +1,9 @@
-# main links links
+en# main links links
 main:
   - title: "CV"
     url: /cv/
     
-  - title: "Publications"
+  - title: "Recent Publications"
     url: /publications/
  
   - title: "Articles"
