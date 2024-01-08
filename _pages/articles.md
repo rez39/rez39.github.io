@@ -3,8 +3,6 @@ layout: archive
 title: "Featured Articles!"
 permalink: /articles/
 author_profile: true
-redirect_from:
-  - /articles
 ---
 
 {% include base_path %}---
