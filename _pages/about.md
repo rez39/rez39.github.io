@@ -45,6 +45,6 @@ Paper presented at 31st IEEE International Symposium on Personal, Indoor and Mob
 https://ieeexplore.ieee.org/document/9217109
 1. S. Deb, C. Rajashekar Reddy, S. Chaudhari, K. Vemuri and K. S. Rajan, “IoT Network Based Analysis of Variations
 in Particulate Matter due to COVID-19 Lockdown
-Paper presented at IEEE 7th International Conference on Electronics, Computing and Communication Technologies 2021
+Paper presented at IEEE 7th International Conference on Electronics, Computing and Communication Technologies 2021, https://ieeexplore.ieee.org/document/9622549
 
 
