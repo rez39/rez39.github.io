@@ -26,9 +26,6 @@ Current Projects
 1. Opportunistic IoT networks 
 1. Low-power wireless sensing.
 
-Featured Articles
-======
-
 
 Previous Publications
 ======
