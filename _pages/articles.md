@@ -1,12 +1,13 @@
 ---
-permalink: /
+layout: archive
 title: "Featured Articles!"
-excerpt: "Articles"
+permalink: /articles/
 author_profile: true
-redirect_from: 
-  - /articles/
-  - /articles.html
+redirect_from:
+  - /articles
 ---
+
+{% include base_path %}---
 
 
 IIIT Hyderabad Team Shortlisted In International Hackathon On Air Quality
