@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-
+[Download pdf version here](https://github.com/rez39/rez39.github.io/blob/master/files/Rajashekar_CV.pdf)
 Education
 ======
 * B.Tech and M.S by Research Dual Degree in Electronics and Communication Engineering, \
