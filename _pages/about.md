@@ -15,7 +15,7 @@ My Journey in a Nutshell
 Before joining NUS, I gained valuable industry experience as a Digital Design Engineer at Texas Instruments, where I worked on logic synthesis and static timing analysis for various ASIC projects. I also honed my firmware development skills as an intern at InnoPark. I completed a dual degree (B.Tech + M.S by Research) in Electronics and Communication Engineering from the International Institute of Information Technology, Hyderabad, where I published multiple papers on air quality monitoring using low-cost IoT sensors. 
 
 Recent News
-------
+======
 [Nov 2023] Presented our paper at ENSSYS'23, in conjunction with ACM SENSYS'23, Istanbul, Turkey.
 
 [Aug 2023] Started Ph.D. in Computer Science at the School of Computing, NUS.
@@ -25,6 +25,10 @@ Current Projects
 1. Low-power transmitter design for Wireless embedded systems
 1. Opportunistic IoT networks 
 1. Low-power wireless sensing.
+
+Featured Articles
+======
+
 
 Previous Publications
 ------
