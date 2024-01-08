@@ -31,7 +31,7 @@ Featured Articles
 
 
 Previous Publications
-------
+======
 1. “Beyond Broadcasting: Revisiting FM Frequency-band for Providing Connectivity to Next Billion Devices”
 Paper presented at 11th International Workshop on Energy Harvesting & Energy-Neutral Sensing Systems 2023,
 [Paper](https://dl.acm.org/doi/10.1145/3628353.3628546)
