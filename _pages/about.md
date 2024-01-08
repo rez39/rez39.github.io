@@ -16,7 +16,7 @@ Before joining NUS, I gained valuable industry experience as a Digital Design En
 
 Recent News
 ------
-[Nov 2023] Presented our paper at ENSSYS'23, held in conjunction with ACM SENSYS'23, Istanbul, Turkey.
+[Nov 2023] Presented our paper at ENSSYS'23, in conjunction with ACM SENSYS'23, Istanbul, Turkey.
 
 [Aug 2023] Started Ph.D. in Computer Science at the School of Computing, NUS.
 
@@ -28,23 +28,22 @@ Current Projects
 
 Previous Publications
 ------
-1. C. Rajashekar Reddy, M. Gulati and A. Varshney, “Beyond Broadcasting: Revisiting FM Frequency-band for
-Providing Connectivity to Next Billion Devices”
+1. “Beyond Broadcasting: Revisiting FM Frequency-band for Providing Connectivity to Next Billion Devices”
 Paper presented at 11th International Workshop on Energy Harvesting & Energy-Neutral Sensing Systems 2023,
-https://dl.acm.org/doi/10.1145/3628353.3628546
-1. C. Rajashekar Reddy, S. De and S. Chaudhari, “Maximum Frequency based Adaptive Sensing for Particulate Matter
-Nodes in IoT Network”
-Paper presented at IEEE 7th World Forum on Internet of Things 2021, https://ieeexplore.ieee.org/document/9595393
-1. C. Rajashekar Reddy and S. Chaudhari, “Hierarchical Clustering based Spatial Sampling of Particulate Matter Nodes
-in IoT Network”
+[Paper](https://dl.acm.org/doi/10.1145/3628353.3628546)
+1. “The application of mobile sensing to detect CO and NO2 emission spikes in polluted cities”
+Published in IEEE Access, [Journal](https://ieeexplore.ieee.org/document/10189899)
+1. “Development of End-to-End Low-Cost IoT System for Densely Deployed PM Monitoring Network: An Indian Case Study”
+Journal accepted in Frontier in Internet of Things.
+1. “Maximum Frequency based Adaptive Sensing for Particulate Matter Nodes in IoT Network”
+Paper presented at IEEE 7th World Forum on Internet of Things 2021, [Paper](https://ieeexplore.ieee.org/document/9595393)
+1. “Hierarchical Clustering based Spatial Sampling of Particulate Matter Nodes in IoT Network”
 Paper presented at The IEEE 8th International Conference on Future Internet of Things and Cloud 2021,
-https://ieeexplore.ieee.org/document/9590333
-1. C. Rajashekar Reddy, T. Mukku, A. Dwivedi, A. Rout, S. Chaudhari, K. Vemuri, K. S. Rajan and A. M. Hussain,
-“Improving Spatio-Temporal Understanding of Particulate Matter Using Low-Cost IoT Sensors”
+[Paper](https://ieeexplore.ieee.org/document/9590333)
+1. “Improving Spatio-Temporal Understanding of Particulate Matter Using Low-Cost IoT Sensors”
 Paper presented at 31st IEEE International Symposium on Personal, Indoor and Mobile Radio Communications 2020,
-https://ieeexplore.ieee.org/document/9217109
-1. S. Deb, C. Rajashekar Reddy, S. Chaudhari, K. Vemuri and K. S. Rajan, “IoT Network Based Analysis of Variations
-in Particulate Matter due to COVID-19 Lockdown
-Paper presented at IEEE 7th International Conference on Electronics, Computing and Communication Technologies 2021, https://ieeexplore.ieee.org/document/9622549
+[Paper](https://ieeexplore.ieee.org/document/9217109)
+1. IoT Network Based Analysis of Variations in Particulate Matter due to COVID-19 Lockdown
+Paper presented at IEEE 7th International Conference on Electronics, Computing and Communication Technologies 2021, [Paper](https://ieeexplore.ieee.org/document/9622549)
 
 
