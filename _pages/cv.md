@@ -28,9 +28,9 @@ Work experience
 * Texas Instruments July 2022 – July 2023\
   Digital Design Engineer - Physical Design Bengaluru, India
   * Worked on three micro partitions’ block-level synthesis, top-level synthesis, LEC closure and ECOs implementation for
-45nm process high-performance microcontroller SITARA AM263P.\
+45nm process high-performance microcontroller SITARA AM263P.
   * Worked on RTL to GDSII implementation of a sub-block and parallelly handled the top-level synthesis for SITARA
-AM261. Also, worked on STA and constraints coding./
+AM261. Also, worked on STA and constraints coding.
 * Innopark Nov 2021 – Jan 2022\
  Embedded Firmware Programmer Intern Hyderabad, India
   * Worked on STM32 and ESP32 based device which involves BLE and WiFi communication and cloud communication
