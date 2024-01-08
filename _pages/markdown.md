@@ -7,6 +7,9 @@ redirect_from:
   - /markdown.html
 ---
 
+
+
+
 IIIT Hyderabad Team Shortlisted In International Hackathon On Air Quality
 ======
 Team comprising of Rajashekar Reddy Chinthalapani, Jayati Narang, Siddharth De and Sara Spanddhana featured among the 8 shortlisted teams at virtual hackathon titled 'Venture With Air' [Read more](https://blogs.iiit.ac.in/hazeard/)
