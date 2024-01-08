@@ -13,11 +13,11 @@ Education
 ======
 * B.Tech and M.S by Research Dual Degree in Electronics and Communication Engineering, \
 International Institute of Information Technology - Hyderabad.\
-Graduated - Dec 2021.\
+Graduated - Dec 2021.
 
 * Ph.D. in Computer Science\
 School of Computer Science, National University of Singapore.\
-2023 - Present\
+2023 - Present
 
 
 Work experience
@@ -51,11 +51,6 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
   
 Teaching
 ======
