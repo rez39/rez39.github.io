@@ -16,9 +16,9 @@ Before joining NUS, I gained valuable industry experience as a Digital Design En
 
 Recent News
 ======
-[Nov 2023] Presented our paper at ENSSYS'23, in conjunction with ACM SENSYS'23, Istanbul, Turkey.
+> [Nov 2023] Presented our paper at ENSSYS'23, in conjunction with ACM SENSYS'23, Istanbul, Turkey.
 
-[Aug 2023] Started Ph.D. in Computer Science at the School of Computing, NUS.
+> [Aug 2023] Started Ph.D. in Computer Science at the School of Computing, NUS.
 
 Current Projects
 ======
