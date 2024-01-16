@@ -13,7 +13,7 @@ name                     : &name "Rajashekar Reddy Chinthalapani"
 description              : &description "PhD Student at National University of Singapore"
 url                      : https://rez39.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "rez39.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 
@@ -101,7 +101,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  LinkedIn         : "https://www.linkedin.com/in/rajashekar-reddy-chinthalapani/"
+  LinkedIn         : #"https://www.linkedin.com/in/rajashekar-reddy-chinthalapani/"
   orcid            : "https://orcid.org/0000-0002-9937-5544"
   pinterest        :
   soundcloud       :
