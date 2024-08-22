@@ -16,7 +16,7 @@ Before joining NUS, I gained valuable industry experience as a Digital Design En
 
 Recent News
 ======
-> [May 2024] Started Summer Internship in the Pervasive Systems Group, Nokia Bell Labs, Cmabridge UK.
+> [May 2024] Started Summer Internship with the Pervasive Systems Group, Nokia Bell Labs, Cambridge UK.
 
 > [Apr 2024] Paper accepted in IEEE RFID'24. Title:"TunnelSense: Low-power, Non-Contact Sensing using Tunnel Diodes"
 
