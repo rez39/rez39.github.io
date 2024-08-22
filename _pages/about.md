@@ -16,7 +16,13 @@ Before joining NUS, I gained valuable industry experience as a Digital Design En
 
 Recent News
 ======
-> [Nov 2023] Presented our paper at ENSSYS'23, in conjunction with ACM SENSYS'23, Istanbul, Turkey.
+> [May 2024] Started Summer Internship in the Pervasive Systems Group, Nokia Bell Labs, Cmabridge UK.
+
+> [April 2024] Paper accepted in IEEE RFID'24. Title:"TunnelSense: Low-power, Non-Contact Sensing using Tunnel Diodes"
+
+>[March 2024] Poster accepted in ACM/IEEE IPSN'24. Title: "Enabling Non-contact, Low-Power Sensing using Tunnel Diodes"
+
+> [Nov 2023] Presented our paper at ENSSYS'23, in conjunction with ACM SENSYS'23, Istanbul, Turkey. Title: "Beyond Broadcasting: Revisiting FM Frequency-band for Providing Connectivity to Next Billion Devices"
 
 > [Aug 2023] Started Ph.D. in Computer Science at the School of Computing, NUS.
 
