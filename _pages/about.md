@@ -39,7 +39,7 @@ Publications
 1. "TunnelSense: Low-power, Non-Contact Sensing using Tunnel Diodes"
 Paper presented at 18th Annual International Conference on RFID 2024, [Paper](https://ieeexplore.ieee.org/document/10582671)
 1. "Poster Abstract: Enabling Non-contact, Low-Power Sensing using Tunnel Diodes"
-Presented at 23rd ACM/IEEE Conference on Information Processing in Sensor Networks 2024,[Poster](https://ieeexplore.ieee.org/abstract/document/10577418)
+Presented at 23rd ACM/IEEE Conference on Information Processing in Sensor Networks 2024, [Poster](https://ieeexplore.ieee.org/abstract/document/10577418)
 1. “Beyond Broadcasting: Revisiting FM Frequency-band for Providing Connectivity to Next Billion Devices”
 Paper presented at 11th International Workshop on Energy Harvesting & Energy-Neutral Sensing Systems 2023 (co-located with ACM SenSys 2023),
 [Paper](https://dl.acm.org/doi/10.1145/3628353.3628546)
