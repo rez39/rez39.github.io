@@ -23,20 +23,25 @@ School of Computer Science, National University of Singapore.\
 2023 - Present
 
 
-Work experience
+Experience
 ======
-* **Texas Instruments** July 2022 – July 2023\
-  **Digital Design Engineer** - Physical Design Bengaluru, India
-  * Worked on three micro partitions’ block-level synthesis, top-level synthesis, LEC closure and ECOs implementation for
+* **Research Intern - Nokia Bell Labs** \
+  May 2024-Aug 2024
+  * Designed a battery-free body patch using sparse sampling algorithms to enable perpetual vital signs monitoring
+  * Hosts: Ashok Thangarajan, Alessandro Montanari
+* **Physical Design Engineer - Texas Instruments, Bengaluru,India** \
+  July 2022 – July 2023
+   * Worked on three micro partitions’ block-level synthesis, top-level synthesis, LEC closure and ECOs implementation for
 45nm process high-performance microcontroller SITARA AM263P.
   * Worked on RTL to GDSII implementation of a sub-block and parallelly handled the top-level synthesis for SITARA
 AM261. Also, worked on STA and constraints coding.
-* **Innopark** Nov 2021 – Jan 2022\
- **Embedded Firmware Programmer Intern** Hyderabad, India
+  
+* **Embedded Firmware Programmer Intern - Innopark** \
+  Nov 2021 – Jan 2022
   * Worked on STM32 and ESP32 based device which involves BLE and WiFi communication and cloud communication
 using mobile app
-* **Texas Instruments** May 2021 – July 2021\
-  **Digital Design Intern** - Physical Design Bengaluru, India
+* **Digital Design Intern- Texas Instruments** \
+  May 2021 – July 2021\
   * Developed a service to automatically retrieve set of information related to RTL synthesis using Cadence Genus.
   
 Skills
