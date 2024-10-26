@@ -3,8 +3,6 @@ main:
   - title: "CV"
     url: /cv/
     
-  - title: "Selected Publications"
-    url: /publications/
  
   - title: "Articles"
     url: /articles/
