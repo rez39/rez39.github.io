@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 paperurl: 'https://github.com/rez39/rez39.github.io/blob/master/files/Rajashekar_CV_26Oct.pdf'
