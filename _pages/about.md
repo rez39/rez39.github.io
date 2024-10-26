@@ -8,11 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a PhD student at the National University of Singapore and am currently working as part of the WEISER group headed by Dr. Ambuj Varshney. As a PhD student in Computer Science at the National University of Singapore, I am passionate about exploring the intersections of IoT, AI, and wireless communication. My research aims to develop novel solutions for energy-efficient and reliable IoT systems that can address real-world challenges.
+Hi there! I am a PhD student in Computer Science at the National University of Singapore, where I am in the intersection of sensor networks, wireless sensing and low-power wireless communication. My research aims to develop novel solutions for energy-efficient and reliable IoT systems that can address real-world challenges.
+
 
 My Journey in a Nutshell
 ======
-Before joining NUS, I gained valuable industry experience as a Digital Design Engineer at Texas Instruments, where I worked on logic synthesis and static timing analysis for various ASIC projects. I also honed my firmware development skills as an intern at InnoPark. I completed a dual degree (B.Tech + M.S by Research) in Electronics and Communication Engineering from the International Institute of Information Technology, Hyderabad, where I published multiple papers on air quality monitoring using low-cost IoT sensors. 
+Before joining NUS, I gained valuable industry experience as a Digital Design Engineer at Texas Instruments, where I worked on logic synthesis and static timing analysis for various ASIC projects. I completed a dual degree (B.Tech + M.S by Research) in Electronics and Communication Engineering from the International Institute of Information Technology, Hyderabad.
 
 Recent News
 ======
@@ -22,23 +23,25 @@ Recent News
 
 > [Mar 2024] Poster accepted in ACM/IEEE IPSN'24. Title: "Enabling Non-contact, Low-Power Sensing using Tunnel Diodes"
 
-> [Nov 2023] Presented our paper at ENSSYS'23, in conjunction with ACM SENSYS'23, Istanbul, Turkey.
-
 > [Oct 2023] Paper accepted in ENSSYS'23.Title: "Beyond Broadcasting: Revisiting FM Frequency-band for Providing Connectivity to Next Billion Devices"
 
 > [Aug 2023] Started Ph.D. in Computer Science at the School of Computing, NUS.
 
 Current Projects
 ======
-1. Low-power transmitter design for Wireless embedded systems
+1. Beyond-backscatter transmitter design for embedded systems
 1. Opportunistic IoT networks 
-1. Low-power wireless sensing.
+1. Low-power wireless sensing
 
 
-Previous Publications
+Publications
 ======
+1. "TunnelSense: Low-power, Non-Contact Sensing using Tunnel Diodes"
+Paper presented at 18th Annual International Conference on RFID 2024, [Paper](https://ieeexplore.ieee.org/document/10582671)
+1. "Poster Abstract: Enabling Non-contact, Low-Power Sensing using Tunnel Diodes"
+Presented at 23rd ACM/IEEE Conference on Information Processing in Sensor Networks 2024,[Poster](https://ieeexplore.ieee.org/abstract/document/10577418)
 1. “Beyond Broadcasting: Revisiting FM Frequency-band for Providing Connectivity to Next Billion Devices”
-Paper presented at 11th International Workshop on Energy Harvesting & Energy-Neutral Sensing Systems 2023,
+Paper presented at 11th International Workshop on Energy Harvesting & Energy-Neutral Sensing Systems 2023 (co-located with ACM SenSys 2023),
 [Paper](https://dl.acm.org/doi/10.1145/3628353.3628546)
 1. “The application of mobile sensing to detect CO and NO2 emission spikes in polluted cities”
 Published in IEEE Access, [Journal](https://ieeexplore.ieee.org/document/10189899)
