@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}  
 
-[Download pdf version here(last updated 26 October 2024)](https://github.com/rez39/rez39.github.io/blob/master/files/Rajashekar_CV_26Oct.pdf)
+[Download pdf version here (last updated 26 October 2024)](https://github.com/rez39/rez39.github.io/blob/master/files/Rajashekar_CV_26Oct.pdf)
 
 
 Education
