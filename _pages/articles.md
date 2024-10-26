@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Featured Articles!"
+title: "Featured Articles"
 permalink: /articles/
 author_profile: true
 ---
