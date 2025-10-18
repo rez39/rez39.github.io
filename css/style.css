@@ -516,3 +516,10 @@ strong {
 	border: 1px #000000 solid;
 }
 
+a,
+.header-link a {
+  text-decoration: underline;
+  text-underline-offset: 2px;       /* optional: nicer spacing */
+  text-decoration-thickness: 1.2px; /* optional: a bit bolder */
+}
+
