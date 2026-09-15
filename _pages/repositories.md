@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: Repositories
 description: GitHub activity and pinned repositories.
 nav: true
 nav_order: 4
