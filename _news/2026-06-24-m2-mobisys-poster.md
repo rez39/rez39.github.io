@@ -1,0 +1,8 @@
+---
+layout: post
+date: 2026-06-24 00:00:00+0800
+inline: true
+related_posts: false
+---
+
+M² awarded Best Poster Runner-Up at ACM MobiSys '26.

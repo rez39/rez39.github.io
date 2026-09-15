@@ -1,0 +1,94 @@
+cv:
+  name: C. Rajashekar Reddy
+  label: PhD Candidate, Computer Science
+  email: rajashekar.c@u.nus.edu
+  location: Singapore
+  image: ""
+  summary: PhD student at the National University of Singapore working on ultra-low-power wireless communication for embedded systems.
+
+  social_networks:
+    - network: GitHub
+      username: rez39
+    - network: LinkedIn
+      username: rajashekar-reddy-chinthalapani
+
+  sections:
+    Education:
+      - institution: National University of Singapore, School of Computing
+        location: Singapore
+        area: Computer Science
+        studyType: PhD
+        start_date: 2023
+        end_date: 2027
+        highlights:
+          - Advised by Prof. Ambuj Varshney, Weiser Lab.
+          - "Research: ultra-low-power wireless communication and embedded sensing for health and IoT applications."
+
+      - institution: IIIT Hyderabad
+        location: Hyderabad, India
+        area: Electronics and Communication Engineering
+        studyType: Dual Degree (B.Tech + M.S. by Research)
+        end_date: 2022
+        highlights:
+          - "MS research on IoT-based air pollution monitoring, advised by Prof. Sachin Chaudhari."
+
+    Experience:
+      - company: Nokia Bell Labs
+        position: Research Intern, Pervasive Systems Group
+        location: Cambridge, UK
+        start_date: 2024
+        end_date: 2024
+        summary: Designed a battery-free body patch using sparse sampling algorithms for perpetual vital signs monitoring (BioPulse).
+
+      - company: Texas Instruments
+        position: Digital Design Engineer
+        location: India
+        start_date: 2022
+        end_date: 2022
+        summary: Physical Design team, SITARA SoCs (AM263P, AM261). Led synthesis and static timing analysis (STA) for key SoC blocks.
+
+      - company: University of Alberta (Mitacs Globalink)
+        position: Research Intern (remote)
+        location: Edmonton, Canada
+        start_date: 2021
+        end_date: 2021
+        summary: Daily activity monitoring using wearable technologies for outcome evaluation of clinical treatments, hosted by Hossein Rouhani.
+
+      - company: Texas Instruments
+        position: Digital Design Engineer Intern
+        location: India
+        start_date: 2021
+        end_date: 2021
+        summary: Physical Design team, SITARA SoCs (AM263P, AM261). Synthesis and static timing analysis (STA).
+
+      - company: Becurie, Innopark
+        position: Embedded Firmware Programmer Intern
+        location: Hyderabad, India
+        start_date: 2021
+        end_date: 2021
+        summary: Smart wearable device generating variable, complex weak magnetic fields for neuro-stimulation and neuro-feedback.
+
+    Awards:
+      - title: NUS Research Achievement Award
+        date: 2025
+        awarder: National University of Singapore
+        summary: Awarded for 2024/2025.
+
+      - title: Rising Star, ACM MobiSys 2025
+        date: 2025
+        awarder: ACM MobiSys
+
+      - title: Student Travel Grant, ACM MobiSys 2025
+        date: 2025
+        awarder: ACM MobiSys
+
+      - title: Student Travel Grant, ACM HotMobile 2025
+        date: 2025
+        awarder: ACM HotMobile
+
+    Skills:
+      - name: Hardware & RF Design
+        keywords: "SPICE, ADS, LTSpice, PCB layout, RF front-end design"
+
+      - name: Programming
+        keywords: "Python, MATLAB, C, C++"
