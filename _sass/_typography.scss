@@ -15,6 +15,34 @@ p {
   text-align: justify;
 }
 
+// Small social icons beside the name in the about-page header
+.about-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+
+.header-social {
+  margin-top: 0.4rem;
+  white-space: nowrap;
+
+  a {
+    font-size: 1.3rem;
+    margin-left: 0.6rem;
+    color: var(--global-text-color);
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
 p,
 h1,
 h2,
