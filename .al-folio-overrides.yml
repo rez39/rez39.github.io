@@ -27,5 +27,5 @@ overrides:
     gem_version: 1.0.15
     upstream_path: _sass/_typography.scss
     upstream_sha256: 60a42f389e7b7f4166a5e10d326458a7d896a8a94d1b2f27f50cd5f1f5131cc5
-    local_sha256: 976f01030b035bb80e534da053f1aa06bc85f4342e135c226c75020a911fbfdb
-    acknowledged_at: '2026-09-15'
+    local_sha256: f65fc97d9dba63588bf8a5397ad981c4b40e7ca79bb4844fa601f319b2808800
+    acknowledged_at: '2026-09-16'

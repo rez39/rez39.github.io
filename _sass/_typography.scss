@@ -15,6 +15,20 @@ p {
   text-align: justify;
 }
 
+// Tailwind's base reset sets every heading to font-weight: 300 (light),
+// which reads as too weak for section subheadings.
+h1 {
+  font-weight: 500;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
 // Small social icons beside the name in the about-page header
 .about-header-row {
   display: flex;
