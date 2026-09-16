@@ -3,7 +3,7 @@ layout: page
 title: BioPulse
 description: A battery-free, perpetual vital-signs monitoring patch (internship project, Nokia Bell Labs)
 img: assets/img/projects/biopulse_patch.png
-importance: 3
+importance: 5
 category: research
 related_publications: true
 ---

@@ -6,7 +6,7 @@ description: A collection of my research projects on low-power wireless communic
 nav: true
 nav_order: 3
 display_categories: [research]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->

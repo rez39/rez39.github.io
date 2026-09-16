@@ -3,7 +3,7 @@ layout: page
 title: SoMix
 description: An autodyning receiver architecture using tunnel diode oscillators for long-range, low-power reception
 img: assets/img/projects/somix_frontend.png
-importance: 2
+importance: 3
 category: research
 related_publications: true
 ---
