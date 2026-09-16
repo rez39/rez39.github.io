@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-AudioCast accepted to ACM IMWUT 2025.
+[AudioCast](/assets/pdf/AudioCast_IMWUT.pdf) accepted to ACM IMWUT 2025.

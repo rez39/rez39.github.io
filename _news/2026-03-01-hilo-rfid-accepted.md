@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-HILO paper accepted at IEEE RFID '26.
+[HILO](/assets/pdf/HILO_RFID.pdf) paper accepted at IEEE RFID '26.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-M² awarded Best Poster Award Runner-Up at ACM MobiSys '26.
+[M²](/publications/#m2_mobisys26poster) awarded Best Poster Award Runner-Up at ACM MobiSys '26.

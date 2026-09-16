@@ -29,6 +29,20 @@ h6 {
   font-weight: 600;
 }
 
+// Award/badge line for a publication (see _layouts/bib.liquid override):
+// own line, highlighted background, instead of trailing inline after the
+// venue/year where it read oddly (e.g. year appearing after the award text).
+.award-badge {
+  display: inline-block;
+  margin-top: 0.3rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.4rem;
+  background-color: var(--global-code-bg-color);
+  color: var(--global-theme-color);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
 // Bold + underline the site owner's (and co-primary authors') name in
 // publication author lists (see _layouts/bib.liquid override)
 .self-author {

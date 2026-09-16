@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started summer internship with the Pervasive Systems group at Nokia Bell Labs, Cambridge.
+Started summer internship with the [Pervasive Systems](https://www.nokia.com/bell-labs/research/sdsr/device-software/) group at Nokia Bell Labs, Cambridge.

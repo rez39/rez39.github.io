@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-M² awarded Honourable Mention at the ACM/IEEE ISLPED '26 Circuit Design Contest.
+[M²](/publications/#m2_islped26demo) awarded Honourable Mention at the ACM/IEEE ISLPED '26 Circuit Design Contest.

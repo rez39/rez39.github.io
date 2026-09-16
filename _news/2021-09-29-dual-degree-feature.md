@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Featured in [IIIT Hyderabad Blogs](https://blogs.iiit.ac.in/rajashekar-dual-degree/): "Student Researcher Earns Dual Degree in Quick Time."
+[Student Researcher Earns Dual Degree in Quick Time](https://blogs.iiit.ac.in/rajashekar-dual-degree/), IIIT Hyderabad Blogs.

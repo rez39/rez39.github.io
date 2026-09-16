@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-BioPulse (internship project with Nokia Bell Labs) accepted at ACM HotMobile 2025.
+[BioPulse](/assets/pdf/Biopulse_Hotmobile.pdf) (internship project with Nokia Bell Labs) accepted at ACM HotMobile 2025.

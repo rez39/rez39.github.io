@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Featured in [qs-gen.com](https://qs-gen.com/iiit-hyderabad-team-shortlisted-in-international-hackathon-on-air-quality/): "IIIT Hyderabad Team Shortlisted In International Hackathon On Air Quality."
+[IIIT Hyderabad Team Shortlisted In International Hackathon On Air Quality](https://qs-gen.com/iiit-hyderabad-team-shortlisted-in-international-hackathon-on-air-quality/), qs-gen.com.

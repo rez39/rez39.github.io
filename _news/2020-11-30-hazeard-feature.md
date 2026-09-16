@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Featured in [IIIT Hyderabad Blogs](https://blogs.iiit.ac.in/hazeard/): "IIITH - Hazeard."
+[IIITH - Hazeard](https://blogs.iiit.ac.in/hazeard/), IIIT Hyderabad Blogs.
