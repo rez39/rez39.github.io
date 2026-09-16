@@ -98,6 +98,12 @@ h6 {
   text-decoration: underline;
 }
 
+// Email line under the name on the about page
+.email-line a {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 // News list with a "Mon YYYY:" date prefix (see _includes/news.liquid override)
 .news-list {
   list-style: none;
