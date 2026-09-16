@@ -15,6 +15,9 @@ layout: default
           {% endif %}
         </h1>
         <p class="desc">{{ page.subtitle }}</p>
+        {% if site.data.socials.email %}
+          <p class="desc email-line"><a href="mailto:{{ site.data.socials.email }}">{{ site.data.socials.email }}</a></p>
+        {% endif %}
       </div>
       {% if page.social %}
         <div class="header-social">{% social_links %}</div>

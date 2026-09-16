@@ -1,9 +1,10 @@
 <!--
-  Local override of al_folio_core's _includes/news.liquid: no date column
-  (site owner request -- news reads as a plain list, not a dated log), and
-  items from before 2023 are collapsed behind a <details> disclosure. On the
-  about-page widget (limited to the most recent N items) the disclosure
-  stays a no-op since those items are always 2023+.
+  Local override of al_folio_core's _includes/news.liquid: date shown as
+  "Mon YYYY:" inline with the item (matching the site owner's previous
+  site), not a separate table column with a full day. Items from before
+  2023 are collapsed behind a <details> disclosure. On the about-page
+  widget (limited to the most recent N items) the disclosure stays a
+  no-op since those items are always 2023+.
 -->
 <div class="news">
   {% if site.news != blank %}
@@ -26,6 +27,7 @@
       {% assign item_year = item.date | date: "%Y" | plus: 0 %}
       {% capture row %}
         <li>
+          <span class="news-date">{{ item.date | date: '%b %Y' }}:</span>
           {% if item.inline %}
             {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
           {% else %}

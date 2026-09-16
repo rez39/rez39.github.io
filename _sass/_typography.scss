@@ -35,7 +35,7 @@ h6 {
   text-decoration: underline;
 }
 
-// News list with no date column (see _includes/news.liquid override)
+// News list with a "Mon YYYY:" date prefix (see _includes/news.liquid override)
 .news-list {
   list-style: none;
   padding-left: 0;
@@ -44,6 +44,11 @@ h6 {
   li {
     padding: 0.3rem 0;
   }
+}
+
+.news-date {
+  font-weight: 600;
+  margin-right: 0.3rem;
 }
 
 // Small social icons beside the name in the about-page header

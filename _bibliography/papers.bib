@@ -14,7 +14,9 @@
   publisher   = {Association for Computing Machinery},
   doi         = {10.1145/3745756.3809248},
   additional_info = {. Featured Paper (Top 10/302)},
-  preview     = {m2_pcb.png}
+  preview     = {m2_pcb.png},
+  pdf         = {M2_MobiSys.pdf},
+  abstract    = {For the past decade, low-power communication has relied on a delegation architecture that offloads carrier signal generation to external emitter devices. Although this reduces transmitter and receiver power, the resulting three-device topology introduces deployment complexity that has hindered wider adoption. Returning to a true two-device architecture on a microwatt budget was considered impossible because stable microwave oscillators are inherently power-hungry. We introduce M2, which breaks the trade-off between stability and power. The key contribution is an oscillator that generates microwave signals below 105 μW while maintaining stability of a few ppm, achieved by coupling a tunnel diode with a high-Q SAW resonator. Over a multi-hour deployment, this stability is at least two orders of magnitude better than state-of-the-art tunnel diode oscillators and is maintained across controlled variations in temperature, humidity, and motion, as well as uncontrolled real-world conditions including a crowded university food court and outdoor environment with direct sun exposure. Furthermore, M2 exhibits self-oscillating mixing and autodyning, enabling standalone transmitters and receivers that achieve 135 m line-of-sight range and -75 dBm reception sensitivity, with ranges exceeding tens of meters in tag-to-tag topology. M2 takes a major step beyond the de facto delegation architecture, enabling a new class of stable, standalone microwatt microwave (M2) radio transceivers.}
 }
 
 @inproceedings{hilo_rfid26,
@@ -27,7 +29,9 @@
   year        = {2026},
   series      = {IEEE RFID '26},
   preview     = {hilo_pcb.png},
-  co_primary  = {Shah}
+  pdf         = {HILO_RFID.pdf},
+  co_primary  = {Shah},
+  abstract    = {Wireless communication remains the most power-consuming operation in embedded systems. Low-power transmitters such as backscatter achieve microwatt-scale operation but produce weak signals susceptible to in-band interference and frequency-selective fading, particularly in non-line-of-sight settings. Multi-band transmission can mitigate these effects through spectral-domain redundancy rather than temporal-domain redundancy, improving reliability without sacrificing bitrate or latency. However, conventional multi-band radio transceivers require duplicated RF chains or power-hungry synthesizers. We introduce HILO, a tunnel diode-based frontend that enables dual-band operation from a single circuit. HILO inverts the conventional paradigm: rather than suppressing the harmonics inherent to tunnel diode nonlinearity, it harnesses them. An external device injection-locks the oscillator to a fundamental frequency, simultaneously stabilizing a higher harmonic and yielding two injection-locked carriers without a second oscillator or frequency multiplier. In transmit mode, HILO exploits self-oscillating mixing to modulate both carriers simultaneously; in receive mode, it uses autodyne downconversion at both frequencies. By turning an inherent nonlinearity into a feature, HILO achieves dual-band links while consuming under 210 μW.}
 }
 
 @article{reddy2025audiocast,
@@ -46,7 +50,8 @@
   doi         = {10.1145/3729471},
   pdf         = {AudioCast_IMWUT.pdf},
   preview     = {audiocast.png},
-  co_primary  = {Shah}
+  co_primary  = {Shah},
+  abstract    = {Wireless connectivity challenges hinder the deployment of embedded systems. We introduce AudioCast to address two critical issues: spectrum scarcity-induced contention and high power consumption in transmitters. The widespread availability of broadcast radio receivers (for example, FM radios using the 88--108 MHz spectrum) and access to underutilized lower-frequency spectrum motivate the design of AudioCast. The lower-frequency spectrum offers superior radio-wave propagation characteristics, exhibiting at least 10x lower path loss than the 2.4 GHz and 5 GHz Industrial, Scientific, and Medical (ISM) bands while avoiding congestion and interference. These properties enable reliable and long-distance communication, even for weakly radiated signals. AudioCast builds on these properties and the unique negative resistance of a tunnel diode. AudioCast rethinks the architecture of radio transmitters using a tunnel diode oscillator to generate carrier signals and self-modulate them with baseband signals. This results in frequency-modulated transmissions at an overall power consumption below 200 μW. Unlike related systems based on the backscatter mechanism, AudioCast does not require an externally generated carrier or rely on ambient signals. We argue that AudioCast represents an example of a new class of transmitters which we conceptualize as Beyond-Backscatter transmitters. Through experiments, we demonstrate that AudioCast achieves a transmission range of up to 130 m in line-of-sight and tens of meters in non-line-of-sight conditions.}
 }
 
 @inproceedings{medaranga2025unraveling,
@@ -62,7 +67,8 @@
   publisher   = {ACM},
   doi         = {10.1145/3711875.3729164},
   pdf         = {SoMix_Mobisys.pdf},
-  preview     = {somix.png}
+  preview     = {somix.png},
+  abstract    = {Wireless communication remains the most power-intensive operation in embedded systems. Decades of research have enabled radio transmitters to operate at power levels as low as tens of μWs while maintaining practical communication ranges. However, achieving power-efficient reception over similarly useful distances has received significantly less attention. State-of-the-art low-power receivers typically rely on Schottky diode-based envelope detectors, which are inherently limited in sensitivity and unable to support complex modulation schemes. We introduce SoMix, the Single Oscillator Mixer receiver, a novel architecture that uses tunnel diode oscillators to overcome these limitations. Specifically, we demonstrate the autodyning property of tunnel diode oscillators, allowing a single circuit to generate both a carrier signal and perform signal downconversion, thus merging two traditionally power-hungry analog tasks into one energy-efficient step. The SoMix front-end consumes less than 100 μW while supporting high-sensitivity reception. Through injection-locking, SoMix stabilizes its tunnel diode oscillator using even a weak external carrier signal, allowing it to receive frequency-modulated transmissions from distances greater than 100 meters in line-of-sight environments. We also demonstrate that the SoMix exhibits robustness in complex real-world scenarios. SoMix outperforms state-of-the-art receivers in power, range, and functionality.}
 }
 
 @inproceedings{reddy2025biopulse,
@@ -94,7 +100,8 @@
   address     = {Cambridge, MA, USA},
   doi         = {10.1109/RFID62091.2024.10582671},
   pdf         = {TunnelSense_RFID.pdf},
-  preview     = {tunnelsense.png}
+  preview     = {tunnelsense.png},
+  abstract    = {Sensing the motion of physical objects in an environment enables numerous applications, from tracking occupancy in buildings and monitoring vital signs to diagnosing faults in machines. Typically, these application scenarios involve attaching a sensor, such as an accelerometer, to the object of interest, like a wearable device that tracks our steps. However, many of these scenarios require tracking motion in a noncontact manner where the sensor is not in touch with the object. A sensor in such a scenario observes variations in radio, light, acoustic, and infrared fields disturbed by the object's motion. Current noncontact sensing mechanisms often require substantial energy and involve complex processing on sophisticated hardware. We present TunnelSense, a novel mechanism that rethinks noncontact sensing using tunnel diode oscillators. They are highly sensitive to changes in their electromagnetic environments. The motion of an object near a tunnel diode oscillator induces corresponding changes in its resonant frequency and thus in the generated radio waves. Additionally, the low-power characteristics of the tunnel diode allow tags designed using them to operate on less than 100 μW of power consumption and with a biasing voltage starting at 70 mV. This enables prolonged tag operation on a small battery or energy harvested from the environment. Among numerous applications enabled by the TunnelSense system, this work demonstrates its ability to detect breathing at distances up to 30 cm between the subject and the TunnelSense tag.}
 }
 
 @inproceedings{reddy2023beyond,
@@ -103,7 +110,8 @@
   author    = {Reddy, C. Rajashekar and Gulati, Manoj and Varshney, Ambuj},
   booktitle = {ACM/IEEE International Conference on Embedded Networked Sensor Systems (ENSsys 2023, co-located with ACM SenSys 2023)},
   year      = {2023},
-  pdf       = {TunnelRadio_Enssys.pdf}
+  pdf       = {TunnelRadio_Enssys.pdf},
+  abstract    = {Wireless communication remains a significant power-consuming task for embedded systems. When exacerbated by increased wireless contention, it results in frequent re-transmissions and, consequently, rapid battery depletion in wireless embedded systems. We introduce TunnelRadio, which is our ongoing effort to design low-power radio transmitters that achieve significant energy efficiency compared to commodity radio transceivers. TunnelRadio leverages tunnel diodes to design energy-efficient oscillators that generate a carrier signal and mix it with a baseband or audio signal, operating at microwatts of power consumption. Specifically, we design TunnelRadio to broadcast signals in the FM broadcasting band. In this work, we demonstrate that TunnelRadio can broadcast an audio signal up to a distance of 24 meters while consuming fewer than 150 microwatts. Additionally, we showcase the transmitter's capability to transmit complex baseband signals, such as those modulated with chirps. Our preliminary work aims to pave the way towards more widespread use of the FM band, thereby enabling large-scale deployments of wireless embedded systems.}
 }
 
 % --- Posters and demos ---
@@ -118,7 +126,8 @@
   address   = {New York, NY, USA},
   doi       = {10.1145/3711875.3734380},
   pdf       = {Demo_AudioCast_Mobisys.pdf},
-  co_primary = {Shah}
+  co_primary = {Shah},
+  abstract    = {Wireless connectivity challenges hinder large-scale deployment of embedded systems. We introduce AudioCast to address two critical issues: spectrum scarcity-induced contention and high power consumption of radio transmitters. The decline of FM-broadcast stations and the ubiquity of FM-receivers motivate the design of AudioCast. By leveraging the negative differential resistance of tunnel diodes---which occurs at low power---AudioCast rethinks the conventional transmitter design. Combined with their self-modulation capability, tunnel diode oscillators enable frequency modulated transmissions while consuming under 200 μW. The transmitter achieves upto 130 m range in line-of-sight and tens of meters in non-line-of-sight environments.}
 }
 
 @article{audiocast_ubicomp25demo,
@@ -133,7 +142,8 @@
   location  = {Finland},
   series    = {ACM UbiComp '25},
   doi       = {10.1145/3714394.3754406},
-  co_primary = {Shah}
+  co_primary = {Shah},
+  abstract    = {The challenges in wireless connectivity continue to hinder the widespread, scalable, and sustainable deployment of embedded systems. We introduce AudioCast to address the issues of spectrum scarcity-induced contention and high power consumption of transmitters. It leverages the availability of FM radio receivers operating within the 88--108 MHz spectrum, taking advantage of the superior radio-wave propagation characteristics afforded by lower-frequency bands. Specifically, AudioCast achieves at least a 10x reduction in path loss compared to the 2.4 GHz and 5 GHz ISM bands. This capability enables reliable long-distance communication while minimizing congestion and interference. AudioCast employs a single tunnel diode oscillator to generate carrier signals, which are then self-modulated with data encoded in baseband audio signals. This results in frequency-modulated transmissions that consume under 200 μW of power, yet travel over 130 m in line-of-sight conditions. Unlike backscatter-based systems, AudioCast does not require an external carrier or depend on ambient signals, introducing a new category of transmitters termed Beyond-Backscatter transmitters, all while maintaining similar low power consumption.}
 }
 
 @inproceedings{reddy2025biopulseposter,
@@ -142,7 +152,8 @@
   author    = {Reddy, C. Rajashekar and Dsouza, Vivian and Thangarajan, Ashok Samraj and Pawe\l{}czak, Przemys\l{}aw and Kawsar, Fahim and Montanari, Alessandro},
   booktitle = {ACM International Workshop on Mobile Computing Systems and Applications (HotMobile 2025)},
   year      = {2025},
-  pdf       = {BioPulse_poster.pdf}
+  pdf       = {BioPulse_poster.pdf},
+  abstract    = {Continuous vital sign monitoring is essential for digital healthcare and self-awareness but is hindered by the limited battery life of wearable devices and barriers faced by older adults with low digital literacy. BioPulse, a battery-free patch device, addresses challenges in vital sign monitoring by using sparse sampling and NFC energy transfer to track heart rate, HRV, and blood pressure.}
 }
 
 @inproceedings{tunnelsense_ipsn24poster,
@@ -154,7 +165,8 @@
   year      = {2024},
   pages     = {311--312},
   doi       = {10.1109/IPSN61024.2024.00056},
-  pdf       = {IPSN__Poster.pdf}
+  pdf       = {IPSN__Poster.pdf},
+  abstract    = {Tracking movements in the environment of macroscopic objects enables numerous applications, from monitoring vital signs through body movements to inferring hand gestures. However, current systems overwhelmingly rely on contact-based sensors or energy-consuming radio frequency mechanisms that necessitate complex radio transceivers for receptions. We present ongoing research on a novel low-power sensor that leverages the unique characteristics of tunnel diodes. This sensor can detect minute changes in its vicinity and communicate these changes over radio waves, all while consuming under 150 microwatts of power consumption. Notably, the transmitted radio waves are processed using low-cost, off-the-shelf radio transceivers, resulting in low cost and power consumption. The sensor's functionality stems from the sensitivity of the resonant frequency of the tunnel diode oscillators to changes in their electromagnetic surroundings. Our early work exhibits its potential for detecting a person's breathing patterns, and hand gestures.}
 }
 
 @inproceedings{gatehaul_mobicom24demo,
@@ -169,7 +181,8 @@
   pages     = {1811--1813},
   location  = {Washington D.C., DC, USA},
   series    = {ACM MobiCom '24},
-  pdf       = {Gatehaul_Mobicom.pdf}
+  pdf       = {Gatehaul_Mobicom.pdf},
+  abstract    = {Significant efforts to address the energy challenges of embedded systems have resulted in the design of new low-power transmitter architectures. These transmitters utilize backscatter or tunnel diode-based mechanisms to enable low-power transmissions by delegating energy-intensive tasks to external infrastructure. However, their widespread adoption is hindered by the need for specialized deployment setups, such as the precise placement of carrier-emitting devices. To overcome this, we are developing GateHaul--a low-cost gateway architecture that provides the required carrier signal, coordinates with other gateways, collects sensor data, and backhauls the information. Notably, GateHaul can backhaul sensor data without conventional networks utilizing emerging opportunistic backhaul networks. We demonstrate an early prototype of GateHaul that collects information from backscatter and conventional devices and backhauls the collected information using Apple's FindMy network.}
 }
 
 @inproceedings{m2_mobisys26poster,
@@ -183,7 +196,8 @@
   booktitle = {Companion of the 24th Annual International Conference on Mobile Systems, Applications and Services (MobiSys '26)},
   pages     = {66--67},
   series    = {ACM MobiSys '26},
-  additional_info = {. 🏅 Best Poster Award Runner-Up}
+  additional_info = {. 🏅 Best Poster Award Runner-Up},
+  abstract    = {Generating a stable microwave carrier has traditionally required milliwatts of power, forcing low-power wireless communication to rely on a delegation architecture with a dedicated emitter device. This has resulted in a three-device topology that complicates real-world deployment. Returning to a true two-device topology under a microwatt power budget has therefore remained elusive. We introduce M2, which breaks this power-stability tradeoff. The key contribution is a microwave oscillator that consumes only 105 μW of power while achieving 2.10 ppm frequency stability, enabled by coupling a tunnel diode with a high-Q SAW resonator. Beyond stable carrier generation, the tunnel diode's nonlinearity enables self-oscillating mixing for transmission and autodyning for reception, collapsing the transmitter and receiver into a single microwatt frontend. This stability is maintained over long durations and across variations in temperature, humidity, motion, and uncontrolled real-world environments, representing two orders of magnitude improvement over state-of-the-art tunnel diode oscillators. M2 moves beyond the delegation architecture, enabling a new class of stable, standalone microwatt microwave (M2) transceivers.}
 }
 
 @inproceedings{m2_islped26demo,
@@ -208,5 +222,6 @@
   booktitle = {Proceedings of the 24th Annual International Conference on Mobile Systems, Applications and Services Companion},
   pages     = {159--160},
   location  = {University of Cambridge, Cambridge, United Kingdom},
-  series    = {ACM MobiSys '26}
+  series    = {ACM MobiSys '26},
+  abstract    = {Commercial asset tracking systems such as Apple AirTags use hundreds of millions of mobile devices as opportunistic data mules, enabling global location coverage without dedicated cellular infrastructure. However, existing trackers are limited to location reporting, rely on active BLE radios and coin-cell batteries, and cannot support long-term sensing deployments. We demonstrate SenseTag, a work-in-progress tracker that extends AirTag-like functionality towards battery-free, sticker form-factor sensing. SenseTag leverages Apple's Find My network as a global backhaul for both location and sensor data, using backscatter communication to eliminate the cost of active BLE transmission. A key challenge is implementing Find My's cryptographic protocol within the tag's constrained compute and energy budget. Unlike prior systems that encode data into public BLE advertisement fields, exposing it to passive scanners, SenseTag embeds sensor readings into the private-key generation process, preserving Find My-compatible location decryption while preventing exposure to passive BLE scanners. We demonstrate an end-to-end prototype using commodity tag-side hardware and a controllable carrier emitter, backhauling environmental sensor data through Apple's Find My network and visualizing recovered location and sensor readings on a web-based dashboard.}
 }
