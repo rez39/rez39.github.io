@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-M² awarded Best Demo Honourable Mention at ACM/IEEE ISLPED '26.
+M² awarded Honourable Mention at the ACM/IEEE ISLPED '26 Circuit Design Contest.
