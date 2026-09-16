@@ -1,0 +1,19 @@
+<!--
+  Local override of al_folio_core's _includes/bib_search.liquid: adds
+  selectable category filter buttons (Full Paper / Demo / Poster /
+  Workshop) alongside the existing text search box, plus the co-primary
+  legend. Requires the matching assets/js/bibsearch.js override, which
+  adds the category-filtering logic on top of the original text search.
+-->
+{% if site.bib_search %}
+  <script src="{{ '/assets/js/bibsearch.js' | relative_url | bust_file_cache }}" type="module"></script>
+  <input type="text" id="bibsearch" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Type to filter">
+  <div class="pub-filter-row">
+    <span class="pub-filter-label">Type:</span>
+    <button type="button" class="pub-filter-btn" data-category="Full Paper">Full Paper</button>
+    <button type="button" class="pub-filter-btn" data-category="Demo">Demo</button>
+    <button type="button" class="pub-filter-btn" data-category="Poster">Poster</button>
+    <button type="button" class="pub-filter-btn" data-category="Workshop">Workshop</button>
+  </div>
+{% endif %}
+<p class="co-primary-legend"><sup>*</sup> indicates co-primary authors with equal contributions to the work.</p>

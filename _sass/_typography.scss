@@ -29,12 +29,61 @@ h6 {
   font-weight: 600;
 }
 
+// Publication category filter buttons (see _includes/bib_search.liquid
+// and assets/js/bibsearch.js overrides)
+.pub-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+
+.pub-filter-label {
+  font-weight: 600;
+  margin-right: 0.2rem;
+}
+
+.pub-filter-btn {
+  padding: 0.2rem 0.7rem;
+  border-radius: 1rem;
+  border: 1px solid var(--global-divider-color);
+  background-color: transparent;
+  color: var(--global-text-color);
+  font-size: 0.85rem;
+  cursor: pointer;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+  }
+
+  &.active {
+    background-color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    color: var(--global-hover-text-color);
+  }
+}
+
+.co-primary-legend {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
 // Award/badge line for a publication (see _layouts/bib.liquid override):
 // own line, highlighted background, instead of trailing inline after the
 // venue/year where it read oddly (e.g. year appearing after the award text).
+.award-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.3rem;
+}
+
 .award-badge {
   display: inline-block;
-  margin-top: 0.3rem;
   padding: 0.2rem 0.6rem;
   border-radius: 0.4rem;
   background-color: var(--global-code-bg-color);

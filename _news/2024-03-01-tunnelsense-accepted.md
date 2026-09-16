@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[TunnelSense](/assets/pdf/TunnelSense_RFID.pdf) accepted at IEEE RFID 2024.
+[TunnelSense](https://doi.org/10.1109/RFID62091.2024.10582671) accepted at IEEE RFID 2024.

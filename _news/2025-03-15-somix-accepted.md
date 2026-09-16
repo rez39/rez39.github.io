@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[SoMix](/assets/pdf/SoMix_Mobisys.pdf) accepted at ACM MobiSys 2025.
+[SoMix](https://doi.org/10.1145/3711875.3729164) accepted at ACM MobiSys 2025.

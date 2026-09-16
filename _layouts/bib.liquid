@@ -1,6 +1,6 @@
 ---
 ---
-<div class="row">
+<div class="row" data-category="{{ entry.category }}">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
@@ -87,6 +87,10 @@
         {% if entry.co_primary and entry.co_primary contains author_last_name %}
           {% assign author_is_co_primary = true %}
         {% endif %}
+        {% assign asterisk_html = '' %}
+        {% if author_is_co_primary %}
+          {% assign asterisk_html = '<sup>*</sup>' %}
+        {% endif %}
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
         {% if site.data.coauthors[clean_last_name] %}
@@ -104,11 +108,11 @@
           {%- endif %}
           {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
         {% endif %}
-        {%- if author_is_self or author_is_co_primary -%}
+        {%- if author_is_self -%}
           <strong class="self-author">
             {{- author.first }}
             {{ author_last_html -}}
-          </strong>
+          </strong>{{ asterisk_html }}
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
@@ -118,7 +122,7 @@
           {%- else -%}
             {{- author.first }}
             {{ author_last_html -}}
-          {% endif %}
+          {% endif %}{{ asterisk_html }}
         {%- endif -%}
       {% endfor %}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
@@ -130,7 +134,11 @@
         {%- endif -%}
         {% assign more_authors_show = '' %}
         {%- for author in entry.author_array offset: author_array_limit -%}
+          {% assign more_author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' %}
           {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
+          {% if entry.co_primary and entry.co_primary contains more_author_last_name %}
+            {% assign more_authors_show = more_authors_show | append: '*' %}
+          {% endif %}
           {% unless forloop.last %}
             {% assign more_authors_show = more_authors_show | append: ', ' %}
           {% endunless %}
@@ -201,7 +209,12 @@
       {{ periodical | strip }}
     </div>
     {% if entry.additional_info %}
-      <div class="award-badge">{{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+      {% assign badges = entry.additional_info | split: '||' %}
+      <div class="award-badges">
+        {% for badge in badges %}
+          <div class="award-badge">{{ badge | strip | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+        {% endfor %}
+      </div>
     {% endif %}
     <div class="periodical">
       {{ entry.note | strip }}
