@@ -25,4 +25,10 @@ latest_posts:
 
 I'm a PhD student in Computer Science at the [National University of Singapore](https://www.comp.nus.edu.sg/), advised by [Prof. Ambuj Varshney](https://ambujvarshney.com/) in the Weiser Lab. My research is on low-power wireless systems and embedded sensing — building energy-efficient communication architectures for next-generation IoT and health-monitoring devices that run at microwatt-level power.
 
+<div class="research-tags">
+  <span class="research-tag">Wireless Communication</span>
+  <span class="research-tag">Embedded Systems</span>
+  <span class="research-tag">VLSI</span>
+</div>
+
 Before NUS, I completed a Dual Degree in Electronics and Communication Engineering at IIIT Hyderabad. See my Career Timeline below for internships and prior roles, including Nokia Bell Labs, Google Cloud, and Texas Instruments.

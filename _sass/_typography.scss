@@ -11,6 +11,33 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+// Research-area tag pills under the about-page intro
+.research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.research-tag {
+  display: inline-block;
+  padding: 0.25rem 0.8rem;
+  border-radius: 1rem;
+  border: 1.5px solid var(--global-theme-color);
+  color: var(--global-theme-color);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+// Hover-preview for publication abstracts: expands the same hidden
+// panel the "Abs" click-toggle uses, on hover of that button, using
+// :has() to reach across the sibling .links wrapper. Purely additive --
+// the existing click-to-pin behavior (bib.liquid + common.js) is
+// unchanged, this just also opens on hover for pointer/mouse users.
+.links:has(> a.abstract:hover) ~ div.abstract.hidden {
+  max-height: 100em;
+}
+
 p {
   text-align: justify;
 }

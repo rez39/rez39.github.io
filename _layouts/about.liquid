@@ -25,6 +25,38 @@ layout: default
     </div>
   </header>
 
+  <!--
+    Local addition: a dedicated Person schema for the about page, on top
+    of the site-wide WebSite schema in metadata.liquid (serve_schema_org).
+    Richer academic profile fields (jobTitle, affiliation, alumniOf,
+    knowsAbout) that the generic site-wide schema doesn't carry.
+  -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "{{ site.first_name }} {{ site.last_name }}",
+      "url": "{{ site.url }}{{ site.baseurl }}/",
+      "image": "{{ site.url }}{{ site.baseurl }}/assets/img/prof_pic.png",
+      "jobTitle": "{{ page.subtitle }}",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "National University of Singapore"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "IIIT Hyderabad"
+      },
+      "email": "mailto:{{ site.data.socials.email }}",
+      "knowsAbout": ["Wireless Communication", "Embedded Systems", "VLSI"],
+      "sameAs": [
+        "https://github.com/{{ site.data.socials.github_username }}",
+        "https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}",
+        "https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
+      ]
+    }
+  </script>
+
   <article>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
