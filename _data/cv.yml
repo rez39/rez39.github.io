@@ -35,13 +35,14 @@ cv:
     Experience:
       - company: Google Cloud
         position: Silicon Engineering Intern, Physical Design Team
-        date: 2026
+        start_date: 2026-05
+        end_date: 2026-09
         summary: Working on enabling VLSI-native foundational models for faster subchip closure.
 
       - company: Nokia Bell Labs
         position: Research Intern, Pervasive Systems Group
-        start_date: 2024
-        end_date: 2024
+        start_date: 2024-05
+        end_date: 2024-08
         summary: Designed a battery-free body patch using sparse sampling algorithms for perpetual vital signs monitoring (BioPulse).
 
       - company: Texas Instruments
@@ -52,20 +53,20 @@ cv:
 
       - company: University of Alberta (Mitacs Globalink)
         position: Research Intern (remote)
-        start_date: 2021
-        end_date: 2021
+        start_date: 2021-07
+        end_date: 2021-10
         summary: Daily activity monitoring using wearable technologies for outcome evaluation of clinical treatments, hosted by Hossein Rouhani.
 
       - company: Texas Instruments
         position: Digital Design Engineer Intern
-        start_date: 2021
-        end_date: 2021
+        start_date: 2021-05
+        end_date: 2021-07
         summary: Physical Design team, SITARA SoCs (AM263P, AM261). Synthesis and static timing analysis (STA).
 
       - company: Becurie, Innopark
         position: Embedded Firmware Programmer Intern
-        start_date: 2021
-        end_date: 2021
+        start_date: 2021-11
+        end_date: 2022-01
         summary: Smart wearable device generating variable, complex weak magnetic fields for neuro-stimulation and neuro-feedback.
 
     Awards:
@@ -81,12 +82,10 @@ cv:
       - title: Student Travel Grant
         date: 2025
         awarder: ACM MobiSys 2025
-        summary: To attend the conference.
 
       - title: Student Travel Grant
         date: 2025
         awarder: ACM HotMobile 2025
-        summary: To attend the conference.
 
       - title: NUS Research Scholarship
         date: 2023
@@ -95,7 +94,8 @@ cv:
 
       - title: Research Scholarship for Excellence
         date: 2021
-        awarder: IIIT Hyderabad
+        awarder: Huawei
+        summary: One of 2 students awarded in the cohort at IIIT Hyderabad.
 
       - title: Merit List
         date: 2021

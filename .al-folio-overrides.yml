@@ -8,6 +8,13 @@ overrides:
     upstream_sha256: 36332b8a7d2ac99156f3499c03655f18f0e6b95c6aec8c66c30550be941c4b2c
     local_sha256: f742c94ed735c75674c9095751425b064b7d1aaf25bba7e6a919d151d6899e5c
     acknowledged_at: '2026-09-16'
+  _includes/cv/experience.liquid:
+    owner: al_folio_cv
+    gem_version: 1.0.2
+    upstream_path: templates/cv/experience.liquid
+    upstream_sha256: 901c87d2e97fea8a679d811e83893267b10eec6ae65b34aee95d8948c5c56c2a
+    local_sha256: 0442162f0379922eaf9aeee806d265f55ade67708dad070550d2aded0f310d2f
+    acknowledged_at: '2026-09-17'
   _includes/header.liquid:
     owner: al_folio_core
     gem_version: 1.0.15
