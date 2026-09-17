@@ -29,7 +29,8 @@ cv:
         start_date: 2018
         end_date: 2022
         highlights:
-          - "MS research on IoT-based air pollution monitoring, advised by Prof. Sachin Chaudhari."
+          - Advised by Prof. Sachin Chaudhari.
+          - "Research: IoT-based air pollution monitoring."
 
     Experience:
       - company: Google Cloud
@@ -73,17 +74,51 @@ cv:
         awarder: National University of Singapore
         summary: Awarded for 2024/2025.
 
-      - title: Rising Star, ACM MobiSys 2025
+      - title: Rising Star
         date: 2025
-        awarder: ACM MobiSys
+        awarder: ACM MobiSys 2025
 
-      - title: Student Travel Grant, ACM MobiSys 2025
+      - title: Student Travel Grant
         date: 2025
-        awarder: ACM MobiSys
+        awarder: ACM MobiSys 2025
+        summary: To attend the conference.
 
-      - title: Student Travel Grant, ACM HotMobile 2025
+      - title: Student Travel Grant
         date: 2025
-        awarder: ACM HotMobile
+        awarder: ACM HotMobile 2025
+        summary: To attend the conference.
+
+      - title: NUS Research Scholarship
+        date: 2023
+        awarder: National University of Singapore
+        summary: For pursuing PhD at NUS.
+
+      - title: Research Scholarship for Excellence
+        date: 2021
+        awarder: IIIT Hyderabad
+
+      - title: Merit List
+        date: 2021
+        awarder: IIIT Hyderabad
+        summary: Academic year 2020-2021.
+
+      - title: Research List Award
+        date: 2021
+        awarder: IIIT Hyderabad
+        summary: Academic year 2020-2021.
+
+      - title: Research List Award
+        date: 2020
+        awarder: IIIT Hyderabad
+        summary: Academic year 2019-2020.
+
+      - title: Dean's List
+        date: 2020
+        awarder: IIIT Hyderabad
+        summary: Semester Spring 2020.
+
+      - title: Top 8 Position, "Venture with Air" Hackathon
+        awarder: University of Helsinki and Slush
 
     Skills:
       - name: Hardware & RF Design

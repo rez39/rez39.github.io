@@ -55,7 +55,7 @@ overrides:
     gem_version: 1.0.15
     upstream_path: _sass/_typography.scss
     upstream_sha256: 60a42f389e7b7f4166a5e10d326458a7d896a8a94d1b2f27f50cd5f1f5131cc5
-    local_sha256: 3b95a490ae691a4145617cb4c99e79c76e83e55594541ef4425d673fb52cac6b
+    local_sha256: 84649c72d059a55018eb8fc79e77a5b468091166539cd276f72021443ff7890c
     acknowledged_at: '2026-09-17'
   assets/js/bibsearch.js:
     owner: al_folio_core
