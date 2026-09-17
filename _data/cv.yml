@@ -40,35 +40,30 @@ cv:
 
       - company: Nokia Bell Labs
         position: Research Intern, Pervasive Systems Group
-        location: Cambridge, UK
         start_date: 2024
         end_date: 2024
         summary: Designed a battery-free body patch using sparse sampling algorithms for perpetual vital signs monitoring (BioPulse).
 
       - company: Texas Instruments
         position: Digital Design Engineer
-        location: India
         start_date: 2022
         end_date: 2023
         summary: Physical Design team, SITARA SoCs (AM263P, AM261). Led synthesis and static timing analysis (STA) for key SoC blocks.
 
       - company: University of Alberta (Mitacs Globalink)
         position: Research Intern (remote)
-        location: Edmonton, Canada
         start_date: 2021
         end_date: 2021
         summary: Daily activity monitoring using wearable technologies for outcome evaluation of clinical treatments, hosted by Hossein Rouhani.
 
       - company: Texas Instruments
         position: Digital Design Engineer Intern
-        location: India
         start_date: 2021
         end_date: 2021
         summary: Physical Design team, SITARA SoCs (AM263P, AM261). Synthesis and static timing analysis (STA).
 
       - company: Becurie, Innopark
         position: Embedded Firmware Programmer Intern
-        location: Hyderabad, India
         start_date: 2021
         end_date: 2021
         summary: Smart wearable device generating variable, complex weak magnetic fields for neuro-stimulation and neuro-feedback.
