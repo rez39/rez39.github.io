@@ -33,6 +33,11 @@ cv:
           - "MS research on IoT-based air pollution monitoring, advised by Prof. Sachin Chaudhari."
 
     Experience:
+      - company: Google Cloud
+        position: Silicon Engineering Intern, Physical Design Team
+        date: 2026
+        summary: Working on enabling VLSI-native foundational models for faster subchip closure.
+
       - company: Nokia Bell Labs
         position: Research Intern, Pervasive Systems Group
         location: Cambridge, UK
@@ -44,7 +49,7 @@ cv:
         position: Digital Design Engineer
         location: India
         start_date: 2022
-        end_date: 2022
+        end_date: 2023
         summary: Physical Design team, SITARA SoCs (AM263P, AM261). Led synthesis and static timing analysis (STA) for key SoC blocks.
 
       - company: University of Alberta (Mitacs Globalink)
