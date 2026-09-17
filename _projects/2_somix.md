@@ -22,6 +22,4 @@ Low-power transmission has advanced a great deal, but low-power *reception* over
     The SoMix front-end (left) consumes under 100 μW while supporting high-sensitivity reception; the demo setup (right) shows range testing in the field.
 </div>
 
-Through injection-locking, SoMix stabilizes its tunnel diode oscillator using even a weak external carrier, receiving FM transmissions from over 100 m in line-of-sight. It outperforms state-of-the-art low-power receivers on power, range, and functionality.
-
-{% cite medaranga2025unraveling %}
+Through injection-locking, SoMix stabilizes its tunnel diode oscillator using even a weak external carrier, receiving FM transmissions from over 100 m in line-of-sight. It outperforms state-of-the-art low-power receivers on power, range, and functionality {% cite medaranga2025unraveling %}.

@@ -22,6 +22,4 @@ Wearables like smartwatches, earbuds, and rings are becoming central to health m
     The BioPulse patch (left) and its sparse-sampling, NFC-powered architecture (right), which cuts power consumption by 57.9%.
 </div>
 
-In evaluation against a ground-truth device, BioPulse achieves a mean absolute error of 5.6 mmHg for systolic and 4.5 mmHg for diastolic blood pressure — a sustainable, accessible approach to continuous vital-signs monitoring. Built during an internship with the Pervasive Systems group at Nokia Bell Labs, Cambridge.
-
-{% cite reddy2025biopulse %}
+In evaluation against a ground-truth device, BioPulse achieves a mean absolute error of 5.6 mmHg for systolic and 4.5 mmHg for diastolic blood pressure — a sustainable, accessible approach to continuous vital-signs monitoring {% cite reddy2025biopulse %}. Built during an internship with the Pervasive Systems group at Nokia Bell Labs, Cambridge.

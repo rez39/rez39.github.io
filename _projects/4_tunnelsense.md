@@ -22,6 +22,4 @@ Many sensing scenarios — tracking occupancy, monitoring vital signs, diagnosin
     The TunnelSense receiver and reference device setup (left) and sensor tag (right).
 </div>
 
-Tags built on this principle run on under 100 μW with a bias voltage starting at just 70 mV, enabling long operation on a small battery or harvested energy. In this work we demonstrate breathing detection at distances up to 30 cm between subject and tag.
-
-{% cite thaddeus2024tunnelsense %}
+Tags built on this principle run on under 100 μW with a bias voltage starting at just 70 mV, enabling long operation on a small battery or harvested energy. In this work we demonstrate breathing detection at distances up to 30 cm between subject and tag {% cite thaddeus2024tunnelsense %}.

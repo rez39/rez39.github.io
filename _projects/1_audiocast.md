@@ -22,6 +22,4 @@ AudioCast rethinks radio transmitter design to solve two problems at once: spect
     AudioCast's transmitter architecture (left) and comparison against related low-power transmission approaches (right).
 </div>
 
-The transmissions are decodable by ordinary commodity FM receivers already deployed everywhere — cars, phones, home radios — reaching up to 130 m line-of-sight. Full details, evaluation, and applications (including low-power voice and gesture communication) are in the paper below.
-
-{% cite reddy2025audiocast %}
+The transmissions are decodable by ordinary commodity FM receivers already deployed everywhere — cars, phones, home radios — reaching up to 130 m line-of-sight. Full details, evaluation, and applications (including low-power voice and gesture communication) are in the paper below {% cite reddy2025audiocast %}.
