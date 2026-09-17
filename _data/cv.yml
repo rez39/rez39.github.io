@@ -15,7 +15,6 @@ cv:
   sections:
     Education:
       - institution: National University of Singapore, School of Computing
-        location: Singapore
         area: Computer Science
         studyType: PhD
         start_date: 2023
@@ -25,9 +24,9 @@ cv:
           - "Research: ultra-low-power wireless communication and embedded sensing for health and IoT applications."
 
       - institution: IIIT Hyderabad
-        location: Hyderabad, India
         area: Electronics and Communication Engineering
         studyType: Dual Degree (B.Tech + M.S. by Research)
+        start_date: 2018
         end_date: 2022
         highlights:
           - "MS research on IoT-based air pollution monitoring, advised by Prof. Sachin Chaudhari."
