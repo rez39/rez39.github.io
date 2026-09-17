@@ -75,17 +75,14 @@ cv:
         awarder: National University of Singapore
         summary: Awarded for 2024/2025.
 
-      - title: Rising Star
+      - title: Rising Star, ACM MobiSys 2025
         date: 2025
-        awarder: ACM MobiSys 2025
 
-      - title: Student Travel Grant
+      - title: Student Travel Grant, ACM MobiSys 2025
         date: 2025
-        awarder: ACM MobiSys 2025
 
-      - title: Student Travel Grant
+      - title: Student Travel Grant, ACM HotMobile 2025
         date: 2025
-        awarder: ACM HotMobile 2025
 
       - title: NUS Research Scholarship
         date: 2023
@@ -94,8 +91,8 @@ cv:
 
       - title: Research Scholarship for Excellence
         date: 2021
-        awarder: Huawei
-        summary: One of 2 students awarded in the cohort at IIIT Hyderabad.
+        awarder: IIIT Hyderabad
+        summary: One of 2 students awarded in the cohort.
 
       - title: Merit List
         date: 2021
